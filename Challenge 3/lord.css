@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  background-color: aqua;
+}
+
+.container {
+  height: 100vh;
+  align-content: center;
+}
+
+.card {
+  margin: auto;
+  background-color: bisque;
+  padding: 20px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}

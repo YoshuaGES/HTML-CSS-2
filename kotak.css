@@ -1,0 +1,30 @@
+.container {
+  background-color: antiquewhite;
+  padding: 90px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.box-parent {
+  width: 50%;
+  border: 1px solid black;
+  height: 500px;
+}
+
+.box-child {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.child {
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+}

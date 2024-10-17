@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  background: rgb(175, 243, 255);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  background: rgba(252, 254, 255, 0.5);
+  padding: 10px;
+  display: flex;
+  width: 40%;
+  gap: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+img {
+  padding-top: 10px;
+  width: 20%;
+  height: 20%;
+}
+
+.profile {
+  width: 100%;
+  padding: 10px;
+}
+
+.head {
+  line-height: 20%;
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: small;
+}
+
+.notes {
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info1 {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.info2 {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.information {
+  line-height: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  padding-top: 10px;
+  gap: 5px;
+}
+
+.follow {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+.viewProfile {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid 1px;
+  color: black;
+  background: none
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  img {
+    width: 80px;
+  }
+
+  .info1, .info2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    flex-direction: column;
+  }
+
+  .but {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
